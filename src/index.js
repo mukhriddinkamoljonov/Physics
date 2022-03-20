@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./App.css";
+import "./index.css";
+import Navbar from "./Components/Navbar/Navbar";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <Navbar />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
