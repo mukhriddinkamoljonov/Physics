@@ -6,7 +6,7 @@ import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
+    {/* <Navbar /> */}
     <App />
   </React.StrictMode>,
   document.getElementById("root")
