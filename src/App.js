@@ -1,17 +1,20 @@
 import "./App.css";
-import Login from "./Components/Login/login";
-import Navbar from "./Components/Navbar/Navbar";
-import { Route, Routes } from "react-router-dom";
+import Login from "./Components/Login/Login";
+import { Navigate, Route, Routes } from "react-router-dom";
+import MainPage from "./Components/MainPage/MainPage";
 
 function App() {
-  return (
-    <>
+  const user = false;
+  if (user) {
+    return <MainPage />;
+  } else {
+    return (
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="*" element={<Navbar to="/" />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-    </>
-  );
+    );
+  }
 }
 
 export default App;
