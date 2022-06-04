@@ -477,4 +477,167 @@ function SearchIcon() {
   );
 }
 
-export { Logo, Logo1, DropIcon, Text, FullScren, SearchIcon };
+function Base() {
+  return (
+    <svg
+      id="task_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <g id="Group_712" data-name="Group 712">
+        <path
+          id="Path_155"
+          data-name="Path 155"
+          d="M0,0H24V24H0Z"
+          fill="none"
+        />
+      </g>
+      <g id="Group_713" data-name="Group 713">
+        <path
+          id="Path_156"
+          data-name="Path 156"
+          d="M14,2H6A2,2,0,0,0,4.01,4L4,20a2,2,0,0,0,1.99,2H18a2.006,2.006,0,0,0,2-2V8ZM10.94,18,7.4,14.46l1.41-1.41,2.12,2.12,4.24-4.24,1.41,1.41ZM13,9V3.5L18.5,9Z"
+          fill="#9ec8dc"
+        />
+      </g>
+    </svg>
+  );
+}
+
+function ProductIcon() {
+  return (
+    <svg
+      id="description_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_151" data-name="Path 151" d="M0,0H24V24H0Z" fill="none" />
+      <path
+        id="Path_152"
+        data-name="Path 152"
+        d="M14,2H6A2,2,0,0,0,4.01,4L4,20a2,2,0,0,0,1.99,2H18a2.006,2.006,0,0,0,2-2V8Zm2,16H8V16h8Zm0-4H8V12h8ZM13,9V3.5L18.5,9Z"
+        fill="#9ec8dc"
+      />
+    </svg>
+  );
+}
+
+function SettingIcon() {
+  return (
+    <svg
+      id="filter_alt_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_877" data-name="Path 877" d="M0,0H24m0,24H0" fill="none" />
+      <path id="Path_879" data-name="Path 879" d="M0,0H24V24H0Z" fill="none" />
+      <g
+        id="Group_1659"
+        data-name="Group 1659"
+        transform="translate(6271 -1942)"
+      >
+        <line
+          id="Line_245"
+          data-name="Line 245"
+          x2="15"
+          transform="translate(-6266.5 1948.5)"
+          fill="none"
+          stroke="#4f7d96"
+          stroke-linecap="square"
+          stroke-width="1.5"
+        />
+        <line
+          id="Line_246"
+          data-name="Line 246"
+          x2="15"
+          transform="translate(-6266.5 1954)"
+          fill="none"
+          stroke="#4f7d96"
+          stroke-linecap="square"
+          stroke-width="1.5"
+        />
+        <line
+          id="Line_247"
+          data-name="Line 247"
+          x2="15"
+          transform="translate(-6266.5 1959.5)"
+          fill="none"
+          stroke="#4f7d96"
+          stroke-linecap="square"
+          stroke-width="1.5"
+        />
+        <g
+          id="Rectangle_1042"
+          data-name="Rectangle 1042"
+          transform="translate(-6264 1946)"
+          fill="#fff"
+          stroke="#4f7d96"
+          stroke-width="1.5"
+        >
+          <rect width="5" height="5" rx="1" stroke="none" />
+          <rect
+            x="0.75"
+            y="0.75"
+            width="3.5"
+            height="3.5"
+            rx="0.25"
+            fill="none"
+          />
+        </g>
+        <g
+          id="Rectangle_1043"
+          data-name="Rectangle 1043"
+          transform="translate(-6258 1951.5)"
+          fill="#fff"
+          stroke="#4f7d96"
+          stroke-width="1.5"
+        >
+          <rect width="5" height="5" rx="1" stroke="none" />
+          <rect
+            x="0.75"
+            y="0.75"
+            width="3.5"
+            height="3.5"
+            rx="0.25"
+            fill="none"
+          />
+        </g>
+        <g
+          id="Rectangle_1044"
+          data-name="Rectangle 1044"
+          transform="translate(-6264 1957)"
+          fill="#fff"
+          stroke="#4f7d96"
+          stroke-width="1.5"
+        >
+          <rect width="5" height="5" rx="1" stroke="none" />
+          <rect
+            x="0.75"
+            y="0.75"
+            width="3.5"
+            height="3.5"
+            rx="0.25"
+            fill="none"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+}
+export {
+  Logo,
+  Logo1,
+  DropIcon,
+  Text,
+  FullScren,
+  SearchIcon,
+  Base,
+  ProductIcon,
+  SettingIcon,
+};

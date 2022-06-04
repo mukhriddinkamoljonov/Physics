@@ -2,9 +2,10 @@ import "./App.css";
 import Login from "./Components/Login/Login";
 import { Navigate, Route, Routes } from "react-router-dom";
 import MainPage from "./Components/MainPage/MainPage";
+import "./Components/page/universal.scss"
 
 function App() {
-  const user = false;
+  const user = true;
   if (user) {
     return <MainPage />;
   } else {
