@@ -1,5 +1,5 @@
 import React from "react";
-import { Base, ProductIcon } from "../../assets/images/Iocns";
+import { Base, BolgaIcon, DownIcon, ProductIcon } from "../../assets/images/Iocns";
 
 function IconType({ icon }) {
   switch (icon) {
@@ -7,6 +7,10 @@ function IconType({ icon }) {
       return <Base />;
     case "ProductIcon":
       return <ProductIcon />;
+    case "DownIcon":
+      return <DownIcon />;
+    case "BolgaIcon":
+      return <BolgaIcon />;
     default:
       return null;
   }

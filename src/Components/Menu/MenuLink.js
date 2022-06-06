@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { Link, useLocation } from "react-router-dom";
 import { setCurrenPage } from "../Redux/stored_reducer";
+import Search from "../Search/Search";
 import { MenuData } from "./MenuData";
 
 const MenuLink = () => {
@@ -32,6 +33,8 @@ const MenuLink = () => {
           );
         })}
       </div>
+      <hr />
+      <Search />
     </div>
   );
 };

@@ -171,27 +171,31 @@ const Navbar = () => {
             </div>
           </div>
           <hr />
-          <div className="navbar_left ">
-            {AllPages?.map((page, i) => {
-              page?.path === pathname && dispatch(setCurrenPage(page));
-              return (
-                <div className="admin-link pl-3 pt-7">
-                  <Link
-                    to={page.path}
-                    className={`nav-link flex ${
-                      pathname === page.path ? "active" : ""
-                    }`}
-                  >
-                    <span className="me-1 seact_icon mr-4">
-                      <IconType icon={page?.icon} />
-                    </span>
-                    <span className="tracking-wide link-text">{page.text}</span>
-                  </Link>
-                </div>
-              );
-            })}
+          <div className="flex">
+            <div className="navbar_left ">
+              {AllPages?.map((page, i) => {
+                page?.path === pathname && dispatch(setCurrenPage(page));
+                return (
+                  <div className="admin-link pl-3 pt-7">
+                    <Link
+                      to={page.path}
+                      className={`nav-link flex ${
+                        pathname === page.path ? "active" : ""
+                      }`}
+                    >
+                      <span className="me-1 seact_icon mr-4">
+                        <IconType icon={page?.icon} />
+                      </span>
+                      <span className="tracking-wide link-text">
+                        {page.text}
+                      </span>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
+            <MenuLink />
           </div>
-          <MenuLink />
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (

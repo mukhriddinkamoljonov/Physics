@@ -6,7 +6,6 @@ const MainPage = () => {
   return (
     <div className="main">
       <Navbar />
-      <Search />
     </div>
   );
 };

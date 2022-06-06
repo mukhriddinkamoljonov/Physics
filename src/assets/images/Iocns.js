@@ -630,6 +630,130 @@ function SettingIcon() {
     </svg>
   );
 }
+
+function DownIcon() {
+  return (
+    <svg
+      id="file_download_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+    >
+      <path id="Path_882" data-name="Path 882" d="M0,0H16V16H0Z" fill="none" />
+      <path
+        id="Path_883"
+        data-name="Path 883"
+        d="M14.333,7H11.667V3h-4V7H5l4.667,4.667ZM5,13v1.333h9.333V13Z"
+        transform="translate(-1.667 -1)"
+        fill="#7a868f"
+      />
+    </svg>
+  );
+}
+
+function BolgaIcon() {
+  return (
+    <svg
+      id="gavel_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+    >
+      <g id="Group_1660" data-name="Group 1660">
+        <rect
+          id="Rectangle_1059"
+          data-name="Rectangle 1059"
+          width="16"
+          height="16"
+          fill="none"
+        />
+      </g>
+      <g
+        id="Group_1662"
+        data-name="Group 1662"
+        transform="translate(0.666 0.666)"
+      >
+        <g id="Group_1661" data-name="Group 1661">
+          <rect
+            id="Rectangle_1060"
+            data-name="Rectangle 1060"
+            width="2.667"
+            height="13.333"
+            transform="translate(2.834 4.714) rotate(-44.968)"
+            fill="#7a868f"
+          />
+          <rect
+            id="Rectangle_1061"
+            data-name="Rectangle 1061"
+            width="2.667"
+            height="5.333"
+            transform="matrix(0.707, -0.707, 0.707, 0.707, 5.658, 1.886)"
+            fill="#7a868f"
+          />
+          <rect
+            id="Rectangle_1062"
+            data-name="Rectangle 1062"
+            width="2.667"
+            height="5.333"
+            transform="translate(0 7.544) rotate(-45)"
+            fill="#7a868f"
+          />
+          <rect
+            id="Rectangle_1063"
+            data-name="Rectangle 1063"
+            width="8"
+            height="1"
+            transform="translate(0.334 13.334)"
+            fill="#7a868f"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+}
+
+function NextLeft() {
+  return (
+    <svg
+      id="navigate_next_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_884" data-name="Path 884" d="M24,0H0V24H24Z" fill="none" />
+      <path
+        id="Path_885"
+        data-name="Path 885"
+        d="M14.59,6,16,7.41,11.42,12,16,16.59,14.59,18l-6-6Z"
+        transform="translate(-0.59)"
+        fill="#7a868f"
+      />
+    </svg>
+  );
+}
+
+function NextRight() {
+  return (
+    <svg
+      id="navigate_next_black_24dp"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+    >
+      <path id="Path_884" data-name="Path 884" d="M0,0H24V24H0Z" fill="none" />
+      <path
+        id="Path_885"
+        data-name="Path 885"
+        d="M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z"
+        fill="#7a868f"
+      />
+    </svg>
+  );
+}
 export {
   Logo,
   Logo1,
@@ -640,4 +764,8 @@ export {
   Base,
   ProductIcon,
   SettingIcon,
+  DownIcon,
+  BolgaIcon,
+  NextLeft,
+  NextRight,
 };
